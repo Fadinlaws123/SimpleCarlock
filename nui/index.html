@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="container" style="display: none;">
+        <div id="header">
+            <span>LOCK MECHANISM</span>
+            <div id="attempts">Attempts Left: <span>3</span></div>
+        </div>
+        <div id="lock-body">
+            <div id="shear-line"></div>
+            <div id="pin-container"></div>
+        </div>
+        <div id="footer">Hold [E] to lift the pin. Release in the green zone.</div>
+    </div>
+
+    <div id="help-menu" style="display: none;">
+        <div class="header">
+            <i class="fa-solid fa-car"></i> Vehicle Key System Help
+        </div>
+        <div class="content">
+            <div class="section">
+                <h3><i class="fa-solid fa-key"></i> Commands</h3>
+                <ul>
+                    <li><span>/getkeys</span> - Get the keys for the vehicle you are currently in.</li>
+                    <li><span>/givekeys [Player ID]</span> - Give your current vehicle keys to another player.</li>
+                    <li><span>/lockpick</span> - Attempt to lockpick the nearest vehicle.</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3><i class="fa-solid fa-robot"></i> Automatic Features</h3>
+                <ul>
+                    <li><strong>Drive Lock:</strong> Doors automatically lock when you start driving.</li>
+                    <li><strong>Exit Unlock:</strong> Doors automatically unlock when you exit the vehicle.</li>
+                    <li><strong>Walk Lock:</strong> Doors automatically lock when you walk a certain distance away.</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h3><i class="fa-solid fa-keyboard"></i> Keybinds</h3>
+                <ul>
+                    <li><span>[E]</span> - Manually lock or unlock your vehicle when you are on foot.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            Press [ESCAPE] or [BACKSPACE] to close this menu.
+            <div class="sub-footer">Made By SimpleDevelopments</div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
