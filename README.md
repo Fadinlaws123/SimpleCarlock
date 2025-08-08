@@ -16,18 +16,5 @@
 - Auto message when players get in a vehicle to inform them of the /carhelp menu. 
 - Sounds for locking / unlocking your vehicle. 
 
-## Screenshots
-
-[details="Click Me 😃"]
-
-![Carlock auto message|555x82](upload://i8gW9GsY2u894FAkNV7xB6FhlIg.png)
-
-![Carlock help menu|345x499, 100%](upload://rbEJW5MuA2ZaUjmqFFDdC6FFvL4.jpeg)
-
-![Carlock lockpick minigame|554x363](upload://lZ2VHKJPImWQGQtPodKQc1XW6qh.png)
-
-[/details]
-
-## Links:
-Github: [Here](https://github.com/Fadinlaws123/SimpleCarlock)
-Latest Release: [Here](https://github.com/Fadinlaws123/SimpleCarlock/releases)
+## Our Discord:
+Discord: [Here](https://discord.gg/UwcwpquY9K)
